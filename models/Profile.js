@@ -8,7 +8,6 @@ class Profile extends Model {
   }
 }
 
-//TODO: ADD PROFILE PIC ATTRIBUTE
 Profile.init(
   {
     id: {
@@ -60,3 +59,5 @@ Profile.init(
 );
 
 module.exports = Profile;
+
+// TODO: The hasOne isn't what I thought? Investigate
